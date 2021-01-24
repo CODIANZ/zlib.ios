@@ -146,7 +146,7 @@
 		DD73F0452487ECEF00F6778B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "CODIANZ Inc.";
 				TargetAttributes = {
 					DD73F04C2487ECEF00F6778B = {
