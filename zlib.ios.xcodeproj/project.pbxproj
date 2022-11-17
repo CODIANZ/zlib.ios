@@ -22,6 +22,7 @@
 		DDB882052487EFFC000985E0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB881FA2487EFFC000985E0 /* adler32.c */; };
 		DDB882062487EFFC000985E0 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB881FB2487EFFC000985E0 /* compress.c */; };
 		DDB882072487EFFC000985E0 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB881FC2487EFFC000985E0 /* infback.c */; };
+		DDC36A802925F75000D76FA6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = DDC36A7F2925F75000D76FA6 /* zip.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		DDB881FA2487EFFC000985E0 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = zlib/adler32.c; sourceTree = "<group>"; };
 		DDB881FB2487EFFC000985E0 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = zlib/compress.c; sourceTree = "<group>"; };
 		DDB881FC2487EFFC000985E0 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = infback.c; path = zlib/infback.c; sourceTree = "<group>"; };
+		DDC36A7F2925F75000D76FA6 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = zlib/contrib/minizip/zip.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				DDB881EC2487EF1C000985E0 /* minizip.c */,
 				DDB881ED2487EF1C000985E0 /* mztools.c */,
 				DDB881EA2487EF1C000985E0 /* unzip.c */,
+				DDC36A7F2925F75000D76FA6 /* zip.c */,
 			);
 			name = minizip;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				DDB882042487EFFC000985E0 /* inffast.c in Sources */,
 				DDB882002487EFFC000985E0 /* trees.c in Sources */,
 				DDB882072487EFFC000985E0 /* infback.c in Sources */,
+				DDC36A802925F75000D76FA6 /* zip.c in Sources */,
 				DDB882022487EFFC000985E0 /* deflate.c in Sources */,
 				DDB881FE2487EFFC000985E0 /* inftrees.c in Sources */,
 				DDB881F02487EF1C000985E0 /* minizip.c in Sources */,
